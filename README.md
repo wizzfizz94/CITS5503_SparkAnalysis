@@ -7,3 +7,5 @@ information about regurally discussed topics and peek discussion times. Apache S
 ## 1. Access Jupyter Server
 The program is currently being run on a jupyter notebook server on a AWS ec2 machine.
 Access it [Here](https://ec2-54-69-247-217.us-west-2.compute.amazonaws.com:9999/).
+The password to access the application is: **CITS5503**
+
