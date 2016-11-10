@@ -9,3 +9,5 @@ The program is currently being run on a jupyter notebook server on a AWS ec2 mac
 Access it [Here](https://ec2-54-69-247-217.us-west-2.compute.amazonaws.com:9999/).
 The password to access the application is: **CITS5503**
 
+## 2. Enjoy the Live Statistical Analysis Results
+This notebook provides statiscal results of the analysis. The data is updated every hour and gives information about the current discussions going on in the /mu/ music borad.
