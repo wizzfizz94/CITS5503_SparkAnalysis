@@ -6,8 +6,8 @@ information about regurally discussed topics and peek discussion times. Apache S
 
 ## 1. Access Jupyter Server
 The program is currently being run on a jupyter notebook server on a AWS ec2 machine.
-Access it [Here](https://ec2-54-69-247-217.us-west-2.compute.amazonaws.com:9999/).
-The password to access the application is: **CITS5503**
+Access it [Here](http://ec2-35-161-247-49.us-west-2.compute.amazonaws.com:8888/notebooks/Board_Analysis.ipynb).
 
-## 2. Enjoy the Live Statistical Analysis Results
-This notebook provides statiscal results of the analysis. The data is updated every hour and gives information about the current discussions going on in the /mu/ music borad.
+## 2. Run and Enjoy Live Statistical Analysis Results
+Run the first cell and view the live statistics being plotted in the output.
+Change **x_time** to vary the time interval (in seconds) between data processing.
