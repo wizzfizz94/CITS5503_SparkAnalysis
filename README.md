@@ -1,7 +1,10 @@
 # CITS5503_SparkAnalysis
 ## Analysis of discussion board messages with Apache Spark.
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](Selection_033.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](Selection_034.png)
 Format: ![Alt Text](url)
 
 This project involed using Apache Spark to analyize the statistics of the 4chan/mu Music board to provide 
