@@ -7,6 +7,13 @@ information about regurally discussed topics and peek discussion times. Apache S
 
 <img src="Selection_050.png" width="350"> <img src="Selection_051.png" width="350">
 
+## Enviroment
+This project was implemented using
+* Apache Spark
+* SparkSQL (originally)
+* AWS EC2
+* 4Chan API
+
 ## Data Abstraction
 Abstracting the data form the image board involved using its public API which coverts data about board topics, replies, creation date and other information into json format. Using this the program pulls json from the API and converts it to a python object. The data is then manipulated into an array of thread objects, providing information about each discussion thread. This array is then partitioned for a cluster environment using Apache Spark to provide improved analysis through parallelized computation.
 
