@@ -5,6 +5,8 @@ information about regurally discussed topics and peek discussion times. Apache S
 
 4chan is an image sharing and discussion forum with boards discussing different topics. /mu/ is 4chan's board for discussing music. Here people talk about music they like and share music with others on discussion threads. The purpose of this project was to abstract data from this board to analyse the most talked about music topics. The most frequently said words and the peak traffic times on the forum.
 
+<img src="Selection_050.png" width="350"> <img src="Selection_051.png" width="350">
+
 ## Data Abstraction
 Abstracting the data form the image board involved using its public API which coverts data about board topics, replies, creation date and other information into json format. Using this the program pulls json from the API and converts it to a python object. The data is then manipulated into an array of thread objects, providing information about each discussion thread. This array is then partitioned for a cluster environment using Apache Spark to provide improved analysis through parallelized computation.
 
@@ -19,7 +21,9 @@ The data is also analysed to provided information on the most popular music thre
 <img src="Selection_034.png" width="500">
 
 ## Most Commonly Posted Words
-Thread data is also evaluated to find the most commonly posted words in the forum. This is done by extracting words from thread replies and reducing them by key to count their occurrences in threads. The most common words are plotted as shown below. 
+Thread data is also evaluated to find the most commonly posted words in the forum. This is done by extracting words from thread replies and reducing them by key to count their occurrences in threads. The most common words are plotted as shown below.
+
+<img src="Selection_052.png" width="500">
 
 ## Automatically Scheduled Analysis and Plotting
 The program uses a scheduled loop to re-analysis the board data after a specified period. This computes the above analysis, providing live information on the discussion activity on the board which automatically updates. The data is then plotted using pyplot as seen above to provided useful statistics about the activity on the image board.
