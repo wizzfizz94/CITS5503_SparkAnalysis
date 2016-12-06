@@ -10,11 +10,11 @@ Abstracting the data form the image board involved using its public API which co
 
 ## Traffic Analysis 
 The traffic on the board is found by analysing the number of recent replies in the threads on the board. The reply count is appended to an array and plotted periodically to show traffic levels on the forum over a period of time.
-<img src="Selection_033.png" width="300">
+<img src="Selection_033.png" width="500">
 
 ## Most Popular Thread Analysis
 The data is also analysed to provided information on the most popular music threads. This is done by analysing the reply count of each thread using Spark.
-<img src="Selection_034.png" width="300">
+<img src="Selection_034.png" width="500">
 
 ## Most Commonly Posted Words
 Thread data is also evaluated to find the most commonly posted words in the forum. This is done by extracting words from thread replies and reducing them by key to count their occurrences in threads. The most common words are plotted as shown below. 
