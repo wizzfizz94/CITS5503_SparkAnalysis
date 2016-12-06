@@ -33,6 +33,8 @@ The program uses a scheduled loop to re-analysis the board data after a specifie
 The program is currently being run on a jupyter notebook server on a AWS ec2 machine.
 Access it [Here](http://ec2-35-161-247-49.us-west-2.compute.amazonaws.com:8888/notebooks/Board_Analysis.ipynb).
 
+Or provison your own server by following [this guide] https://medium.com/@josemarcialportilla/getting-spark-python-and-jupyter-notebook-running-on-amazon-ec2-dec599e1c297#.b1bx8jfzy.
+
 ## 2. Run and Enjoy Live Statistical Analysis Results
 Run the first cell and view the live statistics being plotted in the output.
 Change **x_time** to vary the time interval (in seconds) between data processing.
